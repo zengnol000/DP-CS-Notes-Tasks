@@ -1,0 +1,34 @@
+print("""4th Industrial Revolution
+
+- MENU -
+.........
+
+Please choose one of the options below, and press enter.
+
+1) Question & Answer 1
+2) Question & Answer 2
+3) Question & Answer 3
+
+""")
+
+answer = "empty"
+
+while(answer == "empty"):
+  userChoice = input()
+  answer = "chosen"
+  
+  if(userChoice == "1"):
+    print("""Why are you here at school?
+I am at school to obtain the knowledge that I need to be successful enough to enter the work force and hopefully along the way, I am able to foster personal interests and obtain life skills.
+""")
+  elif(userChoice == "2"):
+    print("""Historically, you should be aware of the Industrial Revolution, but have you heard of the 4th Industrial Revolution?
+No I have not heard of the 4th Industrial Revolution until now. Watching the video, I realized they are referring to 3D printing technology. When 3D printing technology came out, I did hear a lot about it revolutionizing the modern world and in some ways, yes it did, but in others it is still quite a pioneering technology with a lot of drawbacks due to our limited material engineering knowledge. I feel for 3D printing technology, we are barely hitting the level where we are normalizing making everyday objects to solve basic problems. The ability to 3D print houses has only been successfully attempted in the past couple of years and I feel this is a pretty revolutionary field of 3D printing as we print with materials other than plastic. There also is 3D printing organs which is becoming more and more advanced. We can successfully do hearts now and maybe lungs? 3D printing is going at a good pace and has a lot of room to still grow.
+""")
+  elif(userChoice == "3"):
+    print("""Have you discovered what you love? Have you had the opportunity to grow in this area? Was it at school? Or was it outside of school? Do you think you will have the opportunity to discover what you love, and become great at it after you finish your secondary education? Should we change how our school systems work? How would you want to change it? Or, why shouldn’t we change it?
+I don’t think I have quite discovered “what I love.” I am discovered things I like, sometimes even love, however, I have not sampled enough in the world to make a definitive statement on this matter. For me, I believe life is about self-exploration and these years at school are a crucial moment where I can explore my interests supported by instructors who know something in the field I am interested in. School has provided me plenty of opportunities to explore some of my interests already. An example of this is robotics. I personally wouldn’t say it was so much of the school’s support rather than the Wegscheid’s support but it allows me to get technical skills in working with coding and robots that I otherwise would have no access to due to my financial background. School has also exposed me to things like theatre and sound design which I have began incorporating into activities outside of school such as my podcast and still doing things in school such as serving as the announcement’s audio technician. I think at my current level, I will definitely go to a university that will allow me to explore at least one if not more of my interests. For me, I think the American system works relatively well, though I do encourage more funding for the arts and humanities because I grew up with the narrative that the humanities didn’t matter. At least for our school system, I do believe we have a lot of the facilities and equipment, but we have yet to reach our full potential in utilizing it. I personally think that the current school system could have more exploratory options in our interests/electives and dedicate more things that people do as clubs into actual classes. 
+""")
+  else:
+    print("INVALID INPUT, please try again")
+    answer = "empty"
