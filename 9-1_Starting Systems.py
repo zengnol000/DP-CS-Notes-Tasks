@@ -13,6 +13,7 @@ Please choose one of the options below, and press enter to get notes.
 6) related to Business M&A
 7) Merger vs Acquisition
 8) System Integration follow M&A
+9) Find Examples of 3 Resources about Systems that include technology/human interaction
 
 """)
 
@@ -45,6 +46,15 @@ while(answer == "empty"):
     """)
   elif(userChoice == "8"):
     print("""There are 4 types of M&A Events: Horizontal, Vertical, Concentric, and Conglomerate. Hortizontal is between companies who sell similar parts and they come together in the benefit of trade to improve market share power. Vertical is when company purchases a smaller or larger company to improve its control over the supply chain. Concentric happen when two companies with different products but same customer base come together to cross-sell products and extend the top-line of a product. Conglomerate would be acquisition of different businesses of products, services, and customers to diversify the company which has fallen out of favor towards niche companies.
+    """)
+  elif(userChoice == "9"):
+    print("""
+    1. Google Home
+    https://home.google.com/discover/
+    2. US Military Predator Drones
+    https://www.airforce-technology.com/projects/predator-uav/
+    3. Opera GX
+    https://www.opera.com/gx
     """)
   else:
     print("INVALID INPUT, please try again")
