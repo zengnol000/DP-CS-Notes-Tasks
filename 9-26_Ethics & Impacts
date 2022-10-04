@@ -42,8 +42,10 @@ while(answer == "empty"):
 
   if(userChoice == "Warm Up"):
     print("""
-    1. 
-    2.
+    1. Access to Information
+    Access to information will allow humans to potentially learn anything. It would mean that it would be possible for humans to receive immediate information particularly in times of emergencies. A con of each thing would be that when there's too much information available, it is overwhelming and there may be a lot of disinformation.
+    2. E-Commerce
+    E-Commerce is wonderful as items can be bought and sold globally. Distance is less of a barrier in terms of resource access. The biggest problem with e-commerce is that as e-commerce allows business to be done around the world, it means some areas have more lax labor laws. It means many times, exploitation could be common.
     """)
 
   if(userChoice == "1"):
